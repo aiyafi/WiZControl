@@ -1,0 +1,13 @@
+{
+  "id": "wizControl",
+  "name": "WiZ Control",
+  "description": "Local WiZ light control: power, color, white temperature, brightness and verified scenes.",
+  "version": "1.0.0",
+  "author": "WiZ Control contributors",
+  "icon": "lightbulb",
+  "type": "widget",
+  "component": "./WiZWidget.qml",
+  "settings": "./Settings.qml",
+  "requires_dms": ">=1.6.0",
+  "permissions": ["settings_read", "settings_write"]
+}
